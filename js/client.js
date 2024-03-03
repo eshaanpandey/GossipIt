@@ -37,7 +37,7 @@ socket.on('receive', data =>{
 
 // If a user leaves the chat, append the info to the container
 socket.on('left', name =>{
-    append(`${name} left the chat`, 'right')
+    append(`${name} left the chat`, 'left')
 })
 
 // If the form gets submitted, send server the message
