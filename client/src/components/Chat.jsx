@@ -65,7 +65,7 @@ export default function Chat() {
     return (
       <div className="max-w-xl mx-auto p-8 mt-20 bg-white shadow-2xl rounded-2xl">
         <h2 className="text-3xl font-bold mb-6 text-center">
-          Welcome to LetsChat
+          Welcome to GossipIt!
         </h2>
         <form onSubmit={handleJoin} className="flex flex-col space-y-4">
           <input
@@ -90,7 +90,7 @@ export default function Chat() {
   return (
     <div className="h-screen w-full flex items-center justify-center bg-indigo-50">
       <div className="w-full max-w-5xl h-5/6 bg-white shadow-2xl rounded-2xl p-8 flex flex-col">
-        <h1 className="text-4xl font-extrabold mb-6 text-center">LetsChat</h1>
+        <h1 className="text-4xl font-extrabold mb-6 text-center">GossipIt</h1>
         <div className="flex-1 overflow-auto mb-6 space-y-4">
           {messages.map((m, i) => {
             if (m.system) {
